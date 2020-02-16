@@ -1,0 +1,55 @@
+/**********************************************
+*** GENERAL
+**********************************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.container {
+  width: 70%;
+  height: 70%;
+  display: block;
+  background-color: #F7F7F7;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slot {
+  position: relative;
+  color: #EB4D4D;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.button {
+  cursor: pointer;
+  display: block; 
+  position: absolute;
+  top: 8%;
+  left: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.element {
+  width: 150px;
+  max-height: 50%;
+}
